@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Your Portfolio</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+    <style>
+      #courses-container {
+          max-width: 52rem; 
+          margin: 0 auto;
+      }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo/Home Link -->
+            <a href="index.html" class="text-lg font-bold">Your Portfolio</a>
+            <!-- Navbar Links -->
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="cv.html" class="hover:text-gray-300">CV</a></li>
+                <li><a href="courses.html" class="hover:text-gray-300">Courses</a></li>
+                <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Courses Content -->
+    <div class="container mx-auto p-8">
+        <!-- Title -->
+        <h1 class="text-3xl font-bold mb-4">Computer Science Courses</h1>
+        
+        <!-- Introductory Text -->
+        <p class="mb-8 text-lg leading-relaxed">
+          Here you'll find a list of majority of the courses I've taken at UCPH, covering both mandatory and elective subjects. Each course is accompanied by a brief description and a personal review, detailing its difficulty and teaching quality. Additionally, for some courses, I've included my own exam answers and other supplementary materials.
+        </p>
+        <div id="courses-container" class="flex flex-col gap-4">
+            <!-- Courses will be inserted here dynamically -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto text-center">
+          <p class="text-sm">&copy; Copyright 2024 </p>
+          <p class="text-sm">Contact: w.shi.cph@gmail.com </p>
+      </div>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
