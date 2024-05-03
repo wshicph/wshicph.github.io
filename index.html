@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./dist/styles.css">
 </head>
 
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
 
     <!-- Navbar -->
     <nav class="bg-gray-800 text-white p-4">
@@ -26,13 +26,14 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container mx-auto flex items-center justify-center h-screen">
-        <div class="max-w-2xl p-8">
+    <div class="flex-grow container mx-auto flex flex-col justify-center items-center">
+        <!-- Image and Description -->
+        <div class="max-w-2xl p-8 text-center">
             <!-- Image -->
             <img src="william-shi.jpg" alt="william shi" class="rounded-full w-96 h-96 mx-auto mb-8">
 
             <!-- Description -->
-            <div class="text-center">
+            <div>
                 <h1 class="text-5xl font-bold mb-4">Aspiring Computer Science Student</h1>
                 <p class="text-lg">I’m a 2nd year BSc. student in computer science at the University of Copenhagen. This website contains some info about the courses I have taken and projects I have done.</p>
             </div>
