@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             title: "Computer Systems (CompSys) - 2023", 
             description: "Covers servaral concepts in machine architecture, operating systems, and computer networks. Practical component of this course is done in C. I quite enjoyed this course, but beware that this course covers quite a lot of topics - this aspect made the exam pretty difficult. I recommend not falling behind in the course schedule.", 
-            grade: "",
+            grade: "12",
             link: "https://kurser.ku.dk/course/ndab16005u" 
         },
         { 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             title: "Randomised Algorithms for Data Analysis (RAD) - 2024", 
             description: "Currently undertaking.", 
-            grade: "",
+            grade: "12",
             link: "https://kurser.ku.dk/course/ndab18001u" 
         }
     ];
